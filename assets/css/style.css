@@ -10,10 +10,12 @@ body {
   -o-background-size: cover;
 }
 
-.padding { 
-  padding-top: 100px!important;
- }
+.padding { padding-top: 100px!important; }
 
+#skills .border {
+  border: 3px solid #000000!important;
+  background-image: url(https://image.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg);
+}
 #about-me img { 
   width: 93%;
   height: 250px;
@@ -35,6 +37,12 @@ body {
   top: 0;
   z-index: 1;
 }
+
+.card-body {
+  background-color: #fff;
+  overflow: auto;
+}
+
 
 .main-timeline:after{
   content: '';
