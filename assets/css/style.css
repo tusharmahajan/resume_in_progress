@@ -10,9 +10,8 @@ body {
   -o-background-size: cover;
 }
 
-#about-me { 
-  margin-top: 180px;
-  /* margin-bottom: 300px; */
+.padding { 
+  padding-top: 100px!important;
  }
 
 #about-me img { 
