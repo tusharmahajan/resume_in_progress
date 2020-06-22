@@ -2,9 +2,6 @@
 
 body { 
   font-family:'Roboto';
-  /* background: url("../back.jpg") no-repeat center center fixed; */
-  /* background-size: 100%; */
-  /* text-align: center; */
   align-items: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -41,9 +38,6 @@ body {
   transform: rotate(90deg);
  }
 
-/* .border {
-  height: 100px;
-} */
  .main-timeline:before{
   content: '';
   width: 5px;
