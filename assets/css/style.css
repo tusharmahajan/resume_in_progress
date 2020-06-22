@@ -2,23 +2,41 @@
 
 body { 
   font-family:'Roboto';
-  background: url("../back.jpg") no-repeat center center fixed;
+  /* background: url("../back.jpg") no-repeat center center fixed; */
   /* background-size: 100%; */
+  /* text-align: center; */
+  align-items: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 
-.padding { padding-top: 100px!important; }
+.navbar { background-color: #8cd9d4; }
+
+.padding { 
+  padding-top: 150px!important;
+  padding-bottom: 200px;
+
+}
+
+#about-me { background-color: #f9ed69; }
+
+#skills { background-color: #f08a5d; }
+
+#projects { background-color: #cc8196; }
+
+#education { background-color: #40514e;}
+
+#contact { background-color: #ff2e63; }
 
 #skills .border {
   border: 3px solid #000000!important;
   background-image: url(https://image.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg);
 }
 #about-me img { 
-  width: 93%;
-  height: 250px;
+  width: 250px;
+  height: 246px;
   object-fit: cover;
   transform: rotate(90deg);
  }
